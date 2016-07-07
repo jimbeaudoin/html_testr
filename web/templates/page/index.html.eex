@@ -1,3 +1,11 @@
+<nav>
+  <ul id="user-menu">
+    <li>
+
+    </li>
+  </ul>
+</nav>
+
 <div class="jumbotron">
   <h2><%= gettext "Welcome to %{name}", name: "Phoenix!" %></h2>
   <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
