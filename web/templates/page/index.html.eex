@@ -1,6 +1,7 @@
 <nav id="nav-bar">
-  <ul id="user-menu">
-    <li>
+  <ul>
+    <li><%= link "Home", to: page_path(@conn, :index) %></li>
+    <li id="user-menu">
       <span class="item">Sub Menu</span>
       <ul id="sub-menu">
         <li>
