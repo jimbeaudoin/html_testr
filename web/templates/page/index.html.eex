@@ -3,7 +3,13 @@
     <li>
       <span class="item">Sub Menu</span>
       <ul id="sub-menu">
-        <li><a href="#">Login</a></li>
+        <li>
+          <%= if @logged_in do %>
+            <%= link "Logout", to: page_path(@conn, :logout), method: "delete" %>
+          <% else %>
+            <%= link "Login", to: page_path(@conn, :login) %>
+          <% end %>
+        </li>
       </ul>
     </li>
   </ul>
