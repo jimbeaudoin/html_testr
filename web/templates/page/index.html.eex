@@ -1,7 +1,10 @@
-<nav>
+<nav id="nav-bar">
   <ul id="user-menu">
     <li>
-
+      <span class="item">Sub Menu</span>
+      <ul id="sub-menu">
+        <li><a href="#">Login</a></li>
+      </ul>
     </li>
   </ul>
 </nav>
